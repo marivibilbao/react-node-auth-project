@@ -23,7 +23,7 @@ const Login = () => {
     <div className="input-group mb-3">
       <input type="text" onChange={(event)=>setEmail(event.target.value)} className="form-control" placeholder="email"></input>
       <input type="password" onChange={(event)=>setPassword(event.target.value)} className="form-control" placeholder="password"></input>
-      <button type="button" onClick={Singin} className="btn btn-danger">Login</button>
+      <button type="button" onClick={Singin} className="btn btn-danger">Submit</button>
     </div>
   );
 };
